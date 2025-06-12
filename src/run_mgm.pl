@@ -81,7 +81,7 @@ $command .= " --out $out_11";
 $command .= " --NT  $nt_11" if $nt_file;
 $command .= " --AA  $aa_11" if $aa_file;
 
-print "# predicing with genetic code 11 ...\n" if $verbose;
+print "# predicting with genetic code 11 ...\n" if $verbose;
 RunSystem( $command );
 
 # temporary files genetic code 4
@@ -94,7 +94,7 @@ $command .= " --out $out_4";
 $command .= " --NT  $nt_4" if $nt_file;
 $command .= " --AA  $aa_4" if $aa_file;
 
-print "# predicing with genetic code 4 ...\n" if $verbose;
+print "# predicting with genetic code 4 ...\n" if $verbose;
 RunSystem( $command );
 
 # compare predictions and select the best
